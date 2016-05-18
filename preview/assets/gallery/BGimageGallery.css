@@ -1,0 +1,22 @@
+.bg1, .bg2, .bg3 {
+	position: absolute;
+  top: 0;
+  left: 0;
+	z-index: -1;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	transition: opacity 4s;
+}
+
+.off {
+  opacity: 0;
+}
+
+.on {
+	opacity: 1;
+}
