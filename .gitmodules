@@ -1,0 +1,3 @@
+[submodule "modules/bg-gallery"]
+	path = modules/bg-gallery
+	url = git@github.com:adamlukaszczyk/background-image-gallery.git
