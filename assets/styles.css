@@ -21,9 +21,19 @@ body {
     text-align: center;
     display: inline-block;
 }
-.bg3 {
+.bg-shade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
     background: #000;
     opacity: 0.5;
+}
+.bg-credits {
+    font-family: 'Roboto Slab', serif;
 }
 
 @media screen and (max-width: 500px){
@@ -32,5 +42,8 @@ body {
     }
     .slogan-firstline {
         display: block;
+    }
+    .github-fork-ribbon {
+        zoom: 0.7;
     }
 }
