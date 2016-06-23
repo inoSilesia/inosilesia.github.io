@@ -2,6 +2,15 @@ body {
     margin: 20px;
     text-align: center;
 }
+h1,h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size:17px;
+    font-weight: normal;
+}
+h3 {
+    font-size:14px;
+}
+
 .link {
     font-family: 'Slabo 27px', serif;
     color:#FFF;
@@ -9,18 +18,16 @@ body {
     font-size:10vw;
     display:block;
     text-align:center;
-    margin:30vh auto 0px auto;
+    margin:20vh auto 0px auto;
 }
 .slogan {
-    font-family: 'Roboto Slab', serif;
     color:#FFF;
-    font-size:17px;
     background: #000;
     padding: 5px 20px;
-    display: block;
     text-align: center;
     display: inline-block;
 }
+
 .bg-shade {
     position: absolute;
     top: 0;
@@ -32,8 +39,22 @@ body {
     background: #000;
     opacity: 0.5;
 }
-.bg-credits {
+div.bg-credits {
+    position: fixed;
     font-family: 'Roboto Slab', serif;
+}
+
+.partners {
+    padding-top: 11vmax;
+    margin: auto;
+    max-width: 90%;
+}
+.partners img {
+    padding: 5px;
+    width: 120px;
+}
+.partners h3 {
+    color: #fff;
 }
 
 @media screen and (max-width: 500px){
@@ -45,5 +66,8 @@ body {
     }
     .github-fork-ribbon {
         zoom: 0.7;
+    }
+    .partners img {
+        width: 40%;
     }
 }
